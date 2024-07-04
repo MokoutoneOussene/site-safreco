@@ -26,10 +26,10 @@
                 <h2 style="color:white" class="text-center"> Trouvez un nom de domaine qui vous convient </h2>
                 <div class="row" style="background:white; margin-top:50px; padding:20px 0px 0px 0px; ;">
                     <div class="col-md-2"> 
-                        <input id="inputCaptcha" type="text" readonly = "readonly" name="" maxlength="5" class="form-control" style="background:#f1f1f1; border: 0px solid #ccc; box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.1);" placeholder="www."/>
+                        <input type="text" readonly = "readonly" name="" maxlength="5" class="form-control" style="background:#f1f1f1; border: 0px solid #ccc; box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.1);" placeholder="www."/>
                     </div>
                     <div class="col-md-6"> 
-                        <input id="inputCaptcha" type="text" name="sld" class="form-control" style="background:#f1f1f1; border: 0px solid #ccc; box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.1);" placeholder="Votre nom de domaine" />
+                        <input type="text" name="sld" class="form-control" style="background:#f1f1f1; border: 0px solid #ccc; box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.1);" placeholder="Votre nom de domaine" />
                     </div>
                     <div class="col-md-2"><select class="form-control" style="background:#f1f1f1; border: 0px solid #ccc; box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.1);">
                             <option value=".com.bf">.com.bf</option>

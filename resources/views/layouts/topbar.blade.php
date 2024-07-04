@@ -1,9 +1,10 @@
 <section id="topbar" class="topbar d-flex align-items-center">
     <div class="container d-flex justify-content-center justify-content-md-between">
         <div class="contact-info d-flex align-items-center">
-            <i class="bi bi-envelope d-flex align-items-center"><a
-                    href="mailto:cemcafbf@gmail.com">info@safreco.com</a></i>
-            <i class="bi bi-phone d-flex align-items-center ms-4"><span>+226 61 34 65 54</span></i>
+            <i class="bi bi-envelope d-flex align-items-center">
+                <a href="mailto:cemcafbf@gmail.com">info@safreco.com</a>
+            </i> <span>|</span> <span>Besoin d'aide ? Parlez à un expert au</span>
+            <i class="bi bi-phone d-flex align-items-center ms-4"><span>+226 25 47 48 58</span></i>
         </div>
         <div class="social-links d-none d-md-flex align-items-center">
             <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
@@ -26,32 +27,37 @@
                 <ul class="navbar-nav ml-auto">
                     <li class="d-flex">
                         <a class="navbar-brand" href="{{ route('home') }}">
-                            <h6>ACCUEIL</h6>
+                            <h6>Accueil</h6>
                         </a>
                     </li>
                     <li class="d-flex">
                         <a class="navbar-brand" href="{{ route('domaines') }}">
-                            <h6>NOM DE DOMAINES</h6>
+                            <h6>Nom de domaine</h6>
+                        </a>
+                    </li>
+                    <li class="d-flex">
+                        <a class="navbar-brand" href="{{ route('expertise') }}">
+                            <h6>Expertise</h6>
+                        </a>
+                    </li>
+                    <li class="d-flex">
+                        <a class="navbar-brand" href="{{ route('realisation') }}">
+                            <h6>Réalisation</h6>
+                        </a>
+                    </li>
+                    <li class="d-flex">
+                        <a class="navbar-brand" href="{{ route('safreco') }}">
+                            <h6>Qui sommes-nous ?</h6>
                         </a>
                     </li>
                     <li class="d-flex">
                         <a class="navbar-brand" href="#">
-                            <h6>EXPERTISE</h6>
+                            <h6>Contact</h6>
                         </a>
                     </li>
                     <li class="d-flex">
                         <a class="navbar-brand" href="#">
-                            <h6>REALISATION</h6>
-                        </a>
-                    </li>
-                    <li class="d-flex">
-                        <a class="navbar-brand" href="#">
-                            <h6>QUI SOMMES-NOUS ?</h6>
-                        </a>
-                    </li>
-                    <li class="d-flex">
-                        <a class="navbar-brand" href="#">
-                            <h6>COMTACTS</h6>
+                            <h6>Mon compte</h6>
                         </a>
                     </li>
                 </ul>

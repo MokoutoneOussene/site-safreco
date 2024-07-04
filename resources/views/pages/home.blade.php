@@ -47,7 +47,7 @@
             </div>
 
             <div class="row gy-4">
-                <div class="col-xl-3 col-md-6 p-2">
+                <div class="col-xl-3 col-md-12 p-2">
                     <article class="text-center" style="border-radius: 100%;">
                         <p>Lite HEBERGEMENT</p>
                         <h4>A partir de <br> 3 000 FCFA /an</h4>
@@ -56,7 +56,7 @@
                         <a href="">Voir plus</a>
                     </article>
                 </div>
-                <div class="col-xl-3 col-md-6 p-2">
+                <div class="col-xl-3 col-md-12 p-2">
                     <article class="text-light text-center d-flex justify-content-center align-item-center bg-dark" style="border-radius: 100%; flex-direction: column">
                         <p>Main HEBERGEMENT</p>
                         <h4>A partir de <br> 22.000 FCFA/An</h4>
@@ -65,7 +65,7 @@
                         <a href="" class="text-light">Voir plus</a>
                     </article>
                 </div>
-                <div class="col-xl-3 col-md-6 p-2">
+                <div class="col-xl-3 col-md-12 p-2">
                     <article class="text-center d-flex justify-content-center align-item-center" style="border-radius: 100%; flex-direction: column">
                         <p>Reseller HEBERGEMENT</p>
                         <h4>A partir de <br> 69.000 FCFA/An</h4>
@@ -74,7 +74,7 @@
                         <a href="">Voir plus</a>
                     </article>
                 </div>
-                <div class="col-xl-3 col-md-6 p-2">
+                <div class="col-xl-3 col-md-12 p-2">
                     <article class="bg-info text-center d-flex justify-content-center align-item-center" style="border-radius: 100%; flex-direction: column">
                         <p>VPS HEBERGEMENT</p>
                         <h4>A partir de <br> 316.000 FCFA/An</h4>
@@ -96,10 +96,10 @@
     <div class="container-fluid" style="background: rgb(28, 27, 27)">
         <div class="container d-flex justify-content-center align-item-center" style="height: 25vh; flex-direction: column;">
             <div class="row">
-                <div class="col-8">
+                <div class="col-xl-8 col-md-12">
                     <h4 class="text-light">Nous fournissons toutes sortes d'hébergement convenable pour tous!</h4>
                 </div>
-                <div class="col-4">
+                <div class="col-xl-4 col-md-12">
                     <button class="btn btn-light w-100">Choisissez celle qui vous convient !</button>
                 </div>
             </div>
@@ -108,7 +108,7 @@
 
     <div class="container">
         <div class="row mt-5 mb-5">
-            <div class="col-6">
+            <div class="col-xl-6 col-md-12">
                 <h4>Pourquoi les services d'hébergement Web?</h4>
                 <p>
                     Un service d'hébergement Web est un type de service d'hébergement Internet qui permet aux individus et aux 
@@ -125,7 +125,7 @@
                 </p>
                 <a href="">Voir plus</a>
             </div>
-            <div class="col-6">
+            <div class="col-xl-6 col-md-12">
                 <h4>Un nom de domaine et son but</h4>
                 <p>
                     Un nom de domaine est une chaîne d'identification qui définit un domaine de l'autonomie administrative , l'autorité ou le 
@@ -144,7 +144,7 @@
     <div class="container-fluid mt-5" style="background: rgb(237, 235, 235)">
         <div class="container p-5">
             <div class="row">
-                <div class="col-6">
+                <div class="col-xl-6 col-md-12">
                     <div class="info-box">
                         <i class="ion-ios-chatboxes size-64"></i>
                         <div class="info-content">
@@ -158,7 +158,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-xl-6 col-md-12">
                     <div class="info-box">
                         <i class="ion-person-stalker size-64"></i>
                         <div class="info-content">
