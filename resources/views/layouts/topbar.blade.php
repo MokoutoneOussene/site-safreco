@@ -15,9 +15,11 @@
     </div>
 </section><!-- End Top Bar -->
 
-<nav class="navbar navbar-expand-md navbar-light shadow-sm" style="border-bottom: 2px solid black; display: block; background-color: #0f4371;">
+<nav class="navbar navbar-expand-md navbar-light shadow-sm"
+    style="border-bottom: 2px solid black; display: block; background-color: #0f4371;">
     <div class="">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
             <span class="navbar-toggler-icon"></span>
         </button>
 
@@ -56,14 +58,36 @@
                         </a>
                     </li>
                     <li class="d-flex">
-                        <a class="navbar-brand" href="#">
+                        <a class="navbar-brand" href="">
                             <h6>Mon compte</h6>
                         </a>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                            tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        ...
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Understood</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </li>
                 </ul>
             </div>
             <div class="col-md-4">
-                <img src="{{asset('img/logo.jpg')}}" alt="logo safreco">
+                <img src="{{ asset('img/logo.jpg') }}" alt="logo safreco">
             </div>
         </div>
     </div>
