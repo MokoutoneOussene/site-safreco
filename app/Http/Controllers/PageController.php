@@ -42,24 +42,24 @@ class PageController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(string $id)
+    public function contact()
     {
-        //
+        return view('pages.contact');
     }
 
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, string $id)
+    public function login()
     {
-        //
+        return view('pages.login');
     }
 
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(string $id)
+    public function logout()
     {
-        //
+        return view('pages.logout');
     }
 }

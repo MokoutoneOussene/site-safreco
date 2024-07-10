@@ -16,6 +16,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('dashboard', function () {
+    return view('admin.pages.home');
+});
+
+Route::get('/', [HomeController::class, 'index'])->name('home');
+
 Route::get('/', [HomeController::class, 'index'])->name('home');
 
 Route::get('nom_domaines', [PageController::class, 'domaine'])->name('domaines');
@@ -25,3 +31,9 @@ Route::get('notre_expertise', [PageController::class, 'expertise'])->name('exper
 Route::get('nos_realisations', [PageController::class, 'realisation'])->name('realisation');
 
 Route::get('nous_sommes_safreco', [PageController::class, 'safreco'])->name('safreco');
+
+Route::get('contactez_nous', [PageController::class, 'contact'])->name('contact');
+
+Route::get('se_connecter', [PageController::class, 'login'])->name('login');
+
+Route::get('creer_compte', [PageController::class, 'logout'])->name('logout');

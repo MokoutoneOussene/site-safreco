@@ -102,7 +102,8 @@
 
             <div class="section-header">
                 <h4 style="color: #0f4371;">Laisser nous un message !</h4>
-                <p>Vous avez des questions et nous avons des réponses. Contactez-nous dès aujourd’hui, nous sommes là pour vous aider</p>
+                <p>Vous avez des questions et nous avons des réponses. Contactez-nous dès aujourd’hui, nous sommes là pour
+                    vous aider</p>
             </div>
 
             <div class="row gx-lg-0 gy-4">
@@ -112,7 +113,7 @@
                         frameborder="0" allowfullscreen></iframe>
                 </div>
                 <div class="col-lg-4 col-md-12">
-                    <div class="d-flex flex-column align-items-center justify-content-center" style="background: #0f4371;">
+                    <div class="d-flex flex-column align-items-center justify-content-center p-3" style="background: #0f4371;">
                         <div class="info-item d-flex" style="background: #266dab;">
                             <i class="bi bi-geo-alt flex-shrink-0"></i>
                             <div>
@@ -163,7 +164,9 @@
                         <div class="form-group mt-3">
                             <textarea class="form-control" name="message" rows="7" placeholder="Votre message ici ..." required></textarea>
                         </div>
-                        <div class="text-center"><button type="submit">Envoyer le message</button></div>
+                        <div class="text-center">
+                            <button type="submit" style="background: #0f4371;">Envoyer le message</button>
+                        </div>
                     </form>
                 </div><!-- End Contact Form -->
             </div>
