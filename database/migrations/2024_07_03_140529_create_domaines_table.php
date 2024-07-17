@@ -13,6 +13,10 @@ return new class extends Migration
     {
         Schema::create('domaines', function (Blueprint $table) {
             $table->id();
+            $table->string('domaine_name')->nullable();
+            $table->string('status')->nullable();
+
+            $table->foreignId('users_id')->constrained()->onUpdate('cascade')->onDelete('cascade');
             $table->timestamps();
         });
     }

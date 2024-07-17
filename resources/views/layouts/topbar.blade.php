@@ -57,7 +57,7 @@
                         </a>
                     </li>
                     <li class="d-flex">
-                        <a class="navbar-brand" href="{{ route('login') }}">
+                        <a class="navbar-brand" href="{{ route('connexion') }}">
                             <h6>Mon compte</h6>
                         </a>
                     </li>

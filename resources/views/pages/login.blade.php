@@ -14,7 +14,6 @@
                     </div><!-- End Logo -->
 
                     <div class="card mb-3">
-
                         <div class="card-body">
 
                             <div class="pt-4 pb-2">
@@ -22,19 +21,19 @@
                                 <p class="text-center small">Entrer votre email et mot de passe pour vous connecter</p>
                             </div>
 
-                            <form class="row g-3 needs-validation" novalidate>
-
+                            <form class="row g-3 needs-validation" action="{{ route('login') }}" method="POST">
+                                @csrf
                                 <div class="col-12">
-                                    <label for="yourUsername" class="form-label">Email</label>
+                                    <label class="form-label">Email</label>
                                     <div class="input-group has-validation">
                                         <span class="input-group-text" id="inputGroupPrepend">@</span>
-                                        <input type="text" name="username" class="form-control" id="yourUsername" required>
+                                        <input type="text" name="email" class="form-control" id="yourUsername" required>
                                     </div>
                                 </div>
 
                                 <div class="col-12">
-                                    <label for="yourPassword" class="form-label">Mot de passe</label>
-                                    <input type="password" name="password" class="form-control" id="yourPassword" required>
+                                    <label class="form-label">Mot de passe</label>
+                                    <input type="password" name="password" class="form-control" required>
                                 </div>
 
                                 <div class="col-12">
@@ -45,19 +44,16 @@
                                     </div>
                                 </div>
                                 <div class="col-12">
-                                    <button class="btn btn-primary w-100" type="submit">Se connecter</button>
+                                    <button class="btn w-100 bg-primary text-light" type="submit">Se connecter</button>
                                 </div>
                                 <div class="col-12">
-                                    <p class="small mb-0">Vous n'etes pas un client ? <a href="{{ route('logout') }}">devenez-un</a></p>
+                                    <p class="small mb-0">Vous n'etes pas un client ? <a href="{{ route('register') }}">devenez-un</a></p>
                                 </div>
                             </form>
-
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
-
     </section>
 @endsection

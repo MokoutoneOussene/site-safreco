@@ -1,9 +1,9 @@
 <style type="text/css">
     .content {
-        background-image: url("img/slider02.jpg");
+        background-image: url("img/slider03.jpg");
         background-size: cover;
         background-repeat: no-repeat;
-        height: 70vh;
+        height: 85vh;
         background-attachment: fixed;
         display: flex;
         justify-content: center;
@@ -11,11 +11,11 @@
 
     .box {
         position: relative;
-        background: rgba(0, 0, 0, 0.751);
+        background: rgba(8, 8, 8, 0.619);
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 70vh;
+        height: 85vh;
     }
 </style>
 

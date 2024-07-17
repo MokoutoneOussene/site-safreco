@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
+use App\Models\User;
 use Illuminate\Http\Request;
 
 class UserController extends Controller
@@ -28,7 +29,10 @@ class UserController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        User::create($request->all());
+
+        emotify('success', 'Hello! votre compte a été crée avec succès.');
+        return redirect()->route('register');
     }
 
     /**

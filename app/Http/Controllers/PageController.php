@@ -50,7 +50,7 @@ class PageController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function login()
+    public function connexion()
     {
         return view('pages.login');
     }
@@ -58,8 +58,16 @@ class PageController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function logout()
+    public function register()
     {
-        return view('pages.logout');
+        return view('pages.register');
+    }
+
+    /**
+     * Remove the specified resource from storage.
+     */
+    public function dashboard()
+    {
+        return view('admin.pages.home');
     }
 }
